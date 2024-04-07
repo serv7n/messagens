@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grade">
+      
+    </div>
+    <div class="inputs">
+        <div>
+            <div class="nome">
+                <label for="name">Nome:</label>
+                <input type="text" id="name"  name="name" placeholder="Seu Nome" required>
+            </div>
+    
+            <div>
+                <textarea name="" id="text" cols="60" rows="10" placeholder="Digite seu texto que  deseja fixar" required></textarea>
+            </div>
+            <div class="color">
+                <label for="color">Escolha a cor da Caixa</label>
+                <input required type="color" name="color" id="color">
+            </div>
+            <div>
+                <button onclick="enviar()">Enviar</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
